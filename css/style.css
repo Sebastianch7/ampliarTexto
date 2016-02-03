@@ -42,9 +42,22 @@ i
 	z-index: 2;
 	text-align: center;
 }
+#btn_opciones span 
+{
+	font-family: futura;
+	cursor: pointer;
+	line-height: -7px;	
+}
+#span_opciones
+{
+	font-family: futura;
+	cursor: pointer;
+	font-size: 11px;
+	line-height: -7px;
+}
 #menu_botones
 {
-	display: block;
+	display: none;
 	background: white;
 	border: 2px solid gray;
 	border-radius: 5px;

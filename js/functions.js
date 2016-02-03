@@ -62,6 +62,7 @@ function estiloLectura(opcion)
 			$('a').css('color','#000000');
 			$('li').css('color','#000000');
 			$('ul').css('color','#000000');
+			$('#btn_opciones').css('color','#ffffff');
 		break;
 
 		case 'btn_sepia':
@@ -71,6 +72,7 @@ function estiloLectura(opcion)
 			$('a').css('color','#ffffff');
 			$('li').css('color','#ffffff');
 			$('ol').css('color','#ffffff');
+			$('#btn_opciones').css('color','#000000');
 		break;
 
 		case 'btn_noche':
@@ -81,6 +83,7 @@ function estiloLectura(opcion)
 			$('li').css('color','#ffffff');
 			$('ul').css('color','#ffffff');
 			$('ol').css('color','#ffffff');
+			$('#btn_opciones').css('color','#000000');
 		break;
 	}
 }
